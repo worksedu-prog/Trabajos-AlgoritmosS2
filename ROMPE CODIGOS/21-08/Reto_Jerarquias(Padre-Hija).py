@@ -9,7 +9,7 @@ class Usuario:
     # Método base para ser redefinido (Es una función NO Confundir con def __init__)
     def obtener_rol(self):
         return "Usuario creado en el sistema"  #Con esta funcion se crea el polimorfismo y asi se crea "las distintas carreras"
-    #POLIMORFISMO: MUCHAS COSAS
+    #POLIMORFISMO: MUCHAS FORMAS
     #El metodo devuelve unicamente una cadena de texto
     
     
