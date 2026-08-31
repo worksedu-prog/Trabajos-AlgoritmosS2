@@ -1,0 +1,62 @@
+// ============================================================
+//   Cívica Software  ·  TCK-4422  ·  Severidad P1
+//   Sistema: PrestaLab  —  Nueva funcionalidad: catalogo mixto
+//   El reporte imprime siempre "Recurso generico". Debe imprimir
+//   la descripcion propia de cada tipo.
+// ============================================================
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Recurso {
+protected:
+    string codigo;
+    bool   prestado;
+public:
+    Recurso(string c) : codigo(c), prestado(false) {}
+    virtual ~Recurso() {} //Se agrega virtual destructor
+
+    void prestar()  { prestado = true; }
+    bool estaPrestado() const { return prestado; }
+
+    virtual string descripcion() const { return "Recurso generico " + codigo; }
+
+};
+
+
+class LibroFisico : public Recurso {
+private:
+    string autor;
+public:
+    LibroFisico(string c, string a) : Recurso(c), autor(a) {}
+    virtual string descripcion() const { return "Libro " + codigo + " de " + autor; } //Se agrega virtual string descripcion()
+};
+
+class Equipo : public Recurso {
+private:
+    int horasUso;
+public:
+    Equipo(string c, int h) : Recurso(c), horasUso(h) {}
+    virtual string descripcion() const { return "Equipo " + codigo + " (" + to_string(horasUso) + "h)"; } //Se agrega virtual string descripcion()
+};
+
+int main() {
+    const int N = 3;
+    Recurso* catalogo[N] = { nullptr, nullptr, nullptr };
+    catalogo[0] = new Recurso("RG-001");
+    catalogo[1] = new LibroFisico("LF-002", "Borges");
+    catalogo[2] = new Equipo("EQ-003", 12);
+
+    catalogo[1]->prestar(); //Catalogo ha sido prestado, se marca como prestado
+
+    int prestados = 0;
+    for (int i = 0; i < N; i++) {
+        if (catalogo[i] == nullptr) continue;
+        cout << catalogo[i]->descripcion();
+        if (catalogo[i]->estaPrestado()) { cout << "  [PRESTADO]"; prestados++; }
+        cout << endl;
+    }
+
+    for (int i = 0; i < N; i++) delete catalogo[i];   // delete sobre nullptr es seguro
+    return 0;
+}
