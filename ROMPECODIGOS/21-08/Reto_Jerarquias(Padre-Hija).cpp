@@ -19,6 +19,13 @@ class Usuario {
             return "Usuario creado en el sistema";
         }
         virtual ~Usuario() = default;
+
+        string get_nombre() {
+            return nombre;
+        }
+        string get_correo() {
+            return correo;
+        }
 };
 
 class Estudiante : public Usuario {
@@ -30,7 +37,7 @@ class Estudiante : public Usuario {
         
         //Carrera del estudiante
         string obtener_rol() override {
-            return "Estudiante de la carrera: " + carrera;
+            return "---Datos del estudiante---\nNombre: " + get_nombre() + "\nCorreo: " + get_correo() + "\nCarrera: " + carrera;
         }
 };
 
