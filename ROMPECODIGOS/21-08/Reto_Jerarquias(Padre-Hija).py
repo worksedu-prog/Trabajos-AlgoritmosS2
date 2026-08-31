@@ -1,3 +1,7 @@
+#La jerarquía honesta
+#Contexto. Casi todos van a manejar entidades parecidas pero no iguales: estudiantes y administradores, recursos prestables y consumibles, sensores fijos y móviles.
+#Se pide. Diseñar una jerarquía de al menos dos niveles donde la hija redefina un método del padre y aporte un atributo propio. En C++ usar virtual y destructor virtual. Justificar en tres líneas por qué era herencia y no composición.
+#Pista: Herencia significa «es un». Si no pueden decir con naturalidad «un LibroDigital es un Recurso», lo que necesitan es que una clase contenga a la otra.
 # Clase base (padre)
 class Usuario:
     def __init__(self, nombre, email):
