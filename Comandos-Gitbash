@@ -1,0 +1,16 @@
+1. Subir cambios de Visual Studio Code a la web ( PC ➔ GitHub)
+
+git add . — Prepara y selecciona todos los archivos nuevos o modificados.
+
+git commit -m "Mensaje descriptivo de lo que subes" — Empaqueta los cambios localmente con una nota.
+
+git push — Envía todo definitivamente a tu repositorio en GitHub.
+
+2. Bajar cambios de la web a tu Visual Studio Code (GitHub ➔ PC)
+Cada vez que se cree o edite algo directamente desde la página web de GitHub y descargarlo en las carpetas del computador:
+
+Abre la terminal
+
+cd Trabajos-AlgoritmosS2
+
+git pull
