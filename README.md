@@ -1,10 +1,10 @@
-# Trabajos Algoritmos II - Corte I
+# Trabajos Algoritmos II
 
-Repositorio de actividades, laboratorios, evaluaciones y retos correspondientes al **Corte I** del curso de Algoritmos y Programación.
+En este repositorio de se guardan actividades, laboratorios, evaluaciones y retos correspondientes a **Trabajos Algoritmos II 2026**
 
----
+## Corte I
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```text
 Trabajos-Algoritmoss2/
