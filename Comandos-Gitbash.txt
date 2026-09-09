@@ -2,6 +2,8 @@
 
 git add . — Prepara y selecciona todos los archivos nuevos o modificados.
 
+git status — Verificar que todo se subio correctamente
+
 git commit -m "Mensaje descriptivo de lo que subes" — Empaqueta los cambios localmente con una nota.
 
 git push — Envía todo definitivamente a tu repositorio en GitHub.
