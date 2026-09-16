@@ -31,3 +31,5 @@ vagon2.siguiente = vagon3
 
 # Ejecutamos la función iniciando desde el primer vagón
 imprimir_tren_inverso(vagon1)
+
+#Probar autocompletado
