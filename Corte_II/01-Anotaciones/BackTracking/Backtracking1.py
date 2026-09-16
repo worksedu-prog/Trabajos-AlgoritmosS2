@@ -29,7 +29,7 @@ def resolver(f, c, laberinto, camino):
 
 
 
-#Prueba
+#Prueba con caminos
 
 laberinto = [
     [0, 1, 0, 0],
@@ -40,6 +40,25 @@ laberinto = [
 
 # Matriz del mismo tamaño inicializada en 0s
 camino = [[0] * len(laberinto[0]) for i in range(len(laberinto))]
+
+if resolver(0, 0, laberinto, camino):
+    print("Ruta encontrada")
+    for fila in camino:
+        print(fila)
+else:
+    print("No hay solución")
+
+
+#Prueba sin caminos
+
+laberinto_pr2 = [
+    [1, 0, 1, 1],
+    [0, 0, 0, 0],
+    [0, 0, 1, 1],
+    [1, 1, 1, 1]
+]
+
+camino = [[1] * len(laberinto[1]) for i in range(len(laberinto))]
 
 if resolver(0, 0, laberinto, camino):
     print("Ruta encontrada")

@@ -8,6 +8,19 @@ git commit -m "Mensaje descriptivo de lo que subes" — Empaqueta los cambios lo
 
 git push — Envía todo definitivamente a tu repositorio en GitHub.
 
+
+1.1 En caso de que marque el codigo como M
+
+git add .
+
+git status
+
+git commit -m "blah blah blah"
+
+git push origin main
+
+git status
+
 2. Bajar cambios de la web a tu Visual Studio Code (GitHub ➔ PC)
 Cada vez que se cree o edite algo directamente desde la página web de GitHub y descargarlo en las carpetas del computador:
 
