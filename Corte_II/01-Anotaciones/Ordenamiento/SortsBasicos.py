@@ -126,7 +126,6 @@ def insertion_sort_comparaciones_e_intercambios(arr):
 
 datos = [64, 25, 12, 22, 11, 90, 45, 33]
 
-# 1. Bubble Sort (usamos .copy() para no alterar 'datos')
 res1, comp1, inter1 = bubble_sort_comparaciones_e_intercambios(datos.copy())
 print(f"\nBubble Sort con comparaciones e intercambios = Resultado: {res1} | Comparaciones: {comp1} | Intercambios: {inter1}")
 
