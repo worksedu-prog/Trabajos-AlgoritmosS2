@@ -1,3 +1,8 @@
+import random
+import time
+
+
+
 #Bucket Sort, prueben con cinco cubetas y con cincuenta sobre los mismos datos, y medir
 
 #Verificación del tiempo
@@ -28,7 +33,7 @@ def bucket_sort(arr, num_buckets):
         index = int((num - min_value) / bucket_range)
         # Ajuste para evitar desbordamiento de índice en el elemento máximo
         if index >= num_buckets:
-            index = num_buckets - 1
+            index -= num_buckets - 1
         buckets[index].append(num)
 
     # Ordenar individualmente cada cubeta y unir los resultados en una sola lista
@@ -38,35 +43,23 @@ def bucket_sort(arr, num_buckets):
 
     return sorted_arr
 
-#Medicion del tiempo
 
-#-------5 CUBETAS-------
+# ... (tu función bucket_sort con la corrección del index) ...
 
+# Creamos una lista con 10,000 números aleatorios para que la medición sea REAL
+mi_lista = [random.uniform(1, 10000) for _ in range(10000)]
+
+# Medición con 5 cubetas
 inicio_tiempo = time.perf_counter()
-
-
-mi_lista = [0.43, 567, 8739, 83, 9]
-
-
-
-v = bucket_sort(mi_lista.copy(), num_buckets=5)
-
+v = bucket_sort(mi_lista.copy(), num_buckets=5)  # Usamos .copy() para no reutilizar la ordenada
 fin_tiempo = time.perf_counter()
 tiempo_total = fin_tiempo - inicio_tiempo
 
-print(f"Ordenamiento de lista apartir de 5 cubetas con bucket_sort {v} con un tiempo de {tiempo_total:.8f} ")
-
-
-
-#---------50 CUBETAS----------
-
+# Medición con 50 cubetas
 inicio_tiempo_2 = time.perf_counter()
-
 l = bucket_sort(mi_lista.copy(), num_buckets=50)
-
 fin_tiempo_2 = time.perf_counter()
 tiempo_total_2 = fin_tiempo_2 - inicio_tiempo_2
 
-print(f"Ordenamiento de lista apartir de 50 cubetas con bucket_sort {l} con un tiempo de {tiempo_total_2:.8f} ")
-
-
+print(f"Tiempo con 5 cubetas:  {tiempo_total:.6f} segundos")
+print(f"Tiempo con 50 cubetas: {tiempo_total_2:.6f} segundos")

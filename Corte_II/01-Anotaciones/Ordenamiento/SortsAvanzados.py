@@ -131,7 +131,7 @@ def bucket_sort(arr):
     bucket_range = (max_value - min_value) / len(arr)
 
     # Crear 'n' cubetas vacías
-    buckets = [[] for _ in range(len(arr))]
+    buckets = [[] for i in range(len(arr))]
 
     # Distribuir los elementos del arreglo dentro de las cubetas correspondientes
     for num in arr:
