@@ -70,3 +70,12 @@ tiempo_total_2 = fin_tiempo_2 - inicio_tiempo_2
 print(f"Ordenamiento de lista apartir de 50 cubetas con bucket_sort {l} con un tiempo de {tiempo_total_2:.8f} ")
 
 
+
+#El punto optimo es más cercano si es igual al número de datos que tiene mi lista. 
+#Para alcanzar el estado optimo el  num.datos_de_mi_lista = num.de_cubetas
+
+
+#Pues si se agregan demasiadas cubetas en una lista de pocos datos (o viceversa en ambos casos) 
+#Se realizara una degeneración debido a la desproporcionalidad de la cantidad de ambas variables
+
+
