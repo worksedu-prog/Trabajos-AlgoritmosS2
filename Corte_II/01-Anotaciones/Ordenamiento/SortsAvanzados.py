@@ -92,7 +92,7 @@ def heapify(arr, n, i):
         arr[i], arr[largest] = arr[largest], arr[i]
         heapify(arr, n, largest)
 
-# Función principal de HeapSort (completada)
+# Función principal de HeapSort
 def heap_sort(arr):
     n = len(arr)
 
