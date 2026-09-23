@@ -8,13 +8,22 @@ E: Lineal O(n) donde n es el tamaño del vector o lista v
 Tabla de complejidad de todos los ordenamientos:
 
 
-Sorts ------------- Tipo de complejidad ------------- 
+Sorts ------------- Tipo de complejidad ------------- ¿Por qué ese tipo de Big O?
 
 
-Bubble sort    |         Constante O(n)         |
+Bubble sort    |        Cuadratico O(n^{2})          |  Es cuadratica porque siempre buscan entre los datos de la lista con sus dos bucles anidados
+                                                     |  con tal de encontrar el mínimo dato de la lista recorriendo todo el resto del arreglo no ordenado; 
 
-Selection sort |         Constante O(n)         |
+Selection sort |        Cuadratico O(n^{2})          |  Es cuadratica porque realiza pasadas sucesivamente comparando e intercambiando vecinos; 
+                                                     |  en una lista aleatoria
 
-Bubble_sort: Constante O(n)
+Insertion sort |        Cuadratico O(n^{2})          |  El ejemplo que me queda más claro es como las cartas, pues cuando se tiene un mazo de cartas y se quiere ordenar 
+                                                     |  Se toma una carta y se va metiendo en la posición correcta entre las que ya se tienen ordenadas, empujando las demás hacia la derecha.
 
-Selection_sort: 
+Merge sort     |        Longaritmica (O(log n))      | Merge sort es logaritmica porque divide el problema partiendolo por la mitad para despúes fusionarlo
+
+Quick sort     |
+
+Heap sort      |
+
+Bucket sort    |
