@@ -1,6 +1,6 @@
 #include <iostream>
 #include <chrono>   // Proporciona herramientas de medición de tiempo de alta precisión
-#include <iomanip>  // Permite dar formato a la salida en consola (ej. número de decimales)
+#include <iomanip>  // Permite dar formato a la salida en consola como el número de decimales)
 
 using namespace std;
 
