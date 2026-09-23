@@ -26,4 +26,4 @@ Quick sort     |     Longaritmica (O( n log n))      | Divide el problema usando
 
 Heap sort      |     Longaritmica (O( n log n))      | Es logaritmica lineal poes construye un montículo y extrae los elementos uno por uno, reacomodando el árbol en cada paso.
 
-Bucket sort    |
+Bucket sort    |        Lineal O(n)                  | Recorre los elementos una sola vez distribuyendo todos los datos en diferentes "cubetas", ordenando los subgrupos para luego dar una lista conformada por todos estos subgrupos
