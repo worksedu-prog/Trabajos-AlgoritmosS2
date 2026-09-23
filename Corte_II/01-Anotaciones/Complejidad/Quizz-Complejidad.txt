@@ -20,7 +20,7 @@ Selection sort |        Cuadratico O(n^{2})          |  Es cuadratica porque rea
 Insertion sort |        Cuadratico O(n^{2})          |  El ejemplo que me queda más claro es como las cartas, pues cuando se tiene un mazo de cartas y se quiere ordenar 
                                                      |  Se toma una carta y se va metiendo en la posición correcta entre las que ya se tienen ordenadas, empujando las demás hacia la derecha.
 
-Merge sort     |        Longaritmica (O(log n))      | Merge sort es logaritmica porque divide el problema partiendolo por la mitad para despúes fusionarlo
+Merge sort     |     Longaritmica (O( n log n))      | Merge sort es logaritmica porque divide el problema partiendolo por la mitad para despúes fusionarlo
 
 Quick sort     |
 
