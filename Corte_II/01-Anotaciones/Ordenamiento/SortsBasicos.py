@@ -29,7 +29,7 @@ def selection_sort(arr):
     return arr
 
 
-# Tomo el segubndo y lo inserto donde va 
+# Tomo el segundo y lo inserto donde va 
 # respecto al primero insertion sort
 
 def insertion_sort(arr):

@@ -1,9 +1,19 @@
+
+
+import time
+
+
+
 # ==========================================
 # 1. MERGE SORT: Divide la lista por la mitad de manera recursiva hasta tener sublistas de un solo elemento (las cuales ya se consideran ordenadas). 
 # Luego, compara los elementos de las sublistas y los recombina (merge) de forma ordenada hacia arriba
 # Complejidad: O(n log n) en todos los casos
 # ==========================================
 def merge_sort(arr):
+
+
+    inicio_tiempo = time.perf_counter()
+
     # Caso base: Si la lista tiene 0 o 1 elementos, ya está ordenada
     if len(arr) > 1:
         # Encuentra el punto medio de la lista
@@ -42,8 +52,11 @@ def merge_sort(arr):
             arr[k] = right_half[j]
             j += 1
             k += 1
+
+    fin_tiempo = time.perf_counter()
+    total_tiempo = fin_tiempo - inicio_tiempo
             
-    return arr
+    return arr, total_tiempo
 
 
 # ==========================================
@@ -147,3 +160,9 @@ def bucket_sort(arr):
         sorted_arr.extend(sorted(bucket))  # Utiliza el ordenamiento ´sorted()´ para sublistas pequeñas
 
     return sorted_arr
+
+
+
+mi_lista_prueba = [21, 434, 464, 7594]
+arr_1, t1 = merge_sort(mi_lista_prueba.copy()) 
+print(f"Ordenamiento por merge_sort con tiempo de {t1:.8f} ordenado de {arr_1}")

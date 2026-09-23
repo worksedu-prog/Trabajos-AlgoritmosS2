@@ -1,0 +1,20 @@
+A: Constante o O(n)
+B: Constante o O(n)
+C: Cuadratico O(n^{2})
+D: Longaritmica (O(log n))
+E: Lineal O(n) donde n es el tamaño del vector o lista v
+
+
+Tabla de complejidad de todos los ordenamientos:
+
+
+Sorts ------------- Tipo de complejidad ------------- 
+
+
+Bubble sort    |         Constante O(n)         |
+
+Selection sort |         Constante O(n)         |
+
+Bubble_sort: Constante O(n)
+
+Selection_sort: 
