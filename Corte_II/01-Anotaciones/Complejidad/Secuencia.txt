@@ -1,0 +1,19 @@
+Secuencia de calcular los precios de partes de un vehículo
+
+Metodo de busqueda: Quick sort
+
+1.¿Qué es n en esa secuencia?
+rta: Mi secuencia utilizaria una complejidad de O(n) representa la cantidad de partes o piezas del vehiculo que se quiere armar
+que estan en la lista y se quiern calcular
+
+2.¿Cuantas veces se ejecuta el proceso si se duplican los datos?
+rta: Las iteraciones se veran relacionadas con las piezas que se tengan es decir si te tiene una lista de n piezas la duplicación sera 2n al multiplicarse los datos
+
+3. Dentro de esa secuencia cuantos procesos se invocan
+rta: Se podrian aplicar dos secuencias en este proceso
+
+Proceso de suma o blucle de suma: que se ejecuta n veces para sumar el precio de cada elemento.
+Proceso constante:Una operación suelta que se ejecuta una sola vez para calcular también el IVA
+
+4. ¿Qué tipo de estructura de datos se esta utilizando? (Ejemplo una lista, un diccionario ¿que és?)
+rta: Una lista (Arreglo o vector)
