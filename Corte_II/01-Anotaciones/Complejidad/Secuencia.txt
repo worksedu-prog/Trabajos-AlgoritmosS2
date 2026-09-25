@@ -1,19 +1,37 @@
-Secuencia de calcular los precios de partes de un vehículo
+Analisis de secuencia, caso: Insertion sort
 
-Metodo de busqueda: Quick sort
+/* Insertion Sort */
+void insertionSort(int arr[], int n) {
+    for (int i = 1; i < n; i++) {
+        int key = arr[i];
+        int j = i - 1;
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+}
+
 
 1.¿Qué es n en esa secuencia?
-rta: Mi secuencia utilizaria una complejidad de O(n) representa la cantidad de partes o piezas del vehiculo que se quiere armar
-que estan en la lista y se quiern calcular
+
+Rta: La complejidad de la función consta de O(n^{2}) siendo n el tamaño o la lónguitud del arreglo
 
 2.¿Cuantas veces se ejecuta el proceso si se duplican los datos?
-rta: Las iteraciones se veran relacionadas con las piezas que se tengan es decir si te tiene una lista de n piezas la duplicación sera 2n al multiplicarse los datos
+
+Rta: Dependera del caso que se tome como el mejor o el peor:
+
+Peor caso: La complejidad sseguira siendo O(n^{2}) al duplicar los datos, pero su tiempo de ejecución sera las operaciones multiplicadas por 4
+El mejor caso: La lista ya estara ordenada siendo una complejidad de O(2n) siendo constante, ejecutandose solo 2 veces
 
 3. Dentro de esa secuencia cuantos procesos se invocan
-rta: Se podrian aplicar dos secuencias en este proceso
 
-Proceso de suma o blucle de suma: que se ejecuta n veces para sumar el precio de cada elemento.
-Proceso constante:Una operación suelta que se ejecuta una sola vez para calcular también el IVA
+Se invocan 0 procesos pues no cuenta con metodos
+
+
+
 
 4. ¿Qué tipo de estructura de datos se esta utilizando? (Ejemplo una lista, un diccionario ¿que és?)
-rta: Una lista (Arreglo o vector)
+
+Rta: Un arreglo
