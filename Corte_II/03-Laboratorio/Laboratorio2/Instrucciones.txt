@@ -1,0 +1,34 @@
+Parte A Responda y justifique:
+
+Tengo mil datos ya ordenados y quiero ordenarlos otra vez. ¿Cuál de los tres básicos hace menos trabajo y por qué?
+Mi Quicksort escoge el primer elemento como pivote. Denme un conjunto de datos que lo haga comportarse pésimo.
+Quiero buscar cien veces sobre una colección de diez mil elementos desordenados. ¿Ordeno primero y uso binaria, o busco secuencial cien veces? Justifiquen.
+Parte B — Búsqueda comparada Implementen búsqueda secuencial y binaria sobre su colección de registros, contando comparaciones. Produzcan la tabla comparativa para cuatro casos: el primer elemento, uno del medio, el último, y uno que no existe.
+
+Parte C — Los tres ordenamientos básicos (30%) Implementen Bubble, Selection e Insertion sobre sus registros, con contadores de comparaciones e intercambios. Reporten los resultados con datos desordenados y con datos ya ordenados, y expliquen la diferencia.
+
+Parte D — Un ordenamiento avanzado y la medición (40%) Implementen Merge o Quicksort, midan el tiempo contra uno de los básicos para tres tamaños distintos de entrada, y produzcan la tabla. En el archivo de respuestas, expliquen en cinco líneas por qué los tiempos crecen distinto.
+
+Como siempre, los dos lenguajes.
+
+Parte E— Complejidad
+
+Midan el algoritmo desarrollado, en los dos lenguajes, y hagan la tabla con la columna de factor.
+Escriban el párrafo que interpreta esa tabla. No basta pegarla: hay que decir qué significa. Si el factor da dos, digan que es O de n y que coincide con lo esperado. Si no coincide, digan por qué creen que no.
+Parte F — CD/CI
+
+Un equipo de desarrollo tiene implementado el mismo algoritmo en Python y C++. Ambos proyectos utilizan GitHub y quieren automatizar un proceso de Integración Continua y Entrega Continua (CI/CD).
+
+El equipo propone el siguiente flujo:
+
+git push → ejecutar programa → pruebas → compilar → desplegar
+
+Uno de los integrantes afirma:
+
+“En Python no necesitamos Integración Continua porque Python no requiere compilación; CI/CD es principalmente para lenguajes como C++.”
+
+Pregunta:
+
+¿Estás de acuerdo con esta afirmación? Explica por qué y propón cómo debería ser un pipeline de CI/CD para el proyecto en Python y otro para C++.
+
+Como implementarioa CD/CI para este laboratorio

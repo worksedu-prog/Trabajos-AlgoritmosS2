@@ -1,0 +1,5 @@
+La diferencia en el crecimiento de los tiempos se debe a la complejidad algorítmica de cada método.
+Un algoritmo básico como Selección ejecuta un número de comparaciones cuadrático de orden O(n^{2}).
+Esto provoca que al duplicar la entrada, el tiempo de ejecución se cuadruplique sustancialmente.
+En cambio, Quicksort aplica "divide y vencerás", reduciendo las operaciones a un orden lineal-logarítmico O(n \log n).
+Por esta razón, Quicksort escala de forma mucho más eficiente y mantiene tiempos bajos al aumentar n.

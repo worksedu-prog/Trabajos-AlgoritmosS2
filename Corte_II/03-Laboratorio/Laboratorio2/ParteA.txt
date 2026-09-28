@@ -1,0 +1,27 @@
+Parte A 
+
+Responda y justifique:
+
+1. Tengo mil datos ya ordenados y quiero ordenarlos otra vez. ¿Cuál de los tres básicos hace menos trabajo y por qué?
+2. Mi Quicksort escoge el primer elemento como pivote. Denme un conjunto de datos que lo haga comportarse pésimo.
+3. Quiero buscar cien veces sobre una colección de diez mil elementos desordenados. 
+¿Ordeno primero y uso binaria, o busco secuencial cien veces? Justifiquen.
+
+Respuestas:
+
+1.Rta: El metodo más basico de ordenamiento y el más rapido en ordenar la lista ya ordenada, sera el Insertion Sort.
+Debido a que el estar ordena la lista el Insertion simplemente comparara y al no haber un desorden no sera necesario crear espacio entre los números para insertar el orden,
+además de que el Insertion sort se compone principalmente de un for y un while, y como la lista ya esta ordenada no sera necesario entrar al while
+porque al primer intento el elemento anterior ya es menor o igual, evitando desplazamientos.
+
+2.Rta: Para que un quicksort se comporte completamente pesimo teniendo el primero como pivote, se le debera dar una lista completamente ordenada, 
+o que la lista esta invertida o que todos los números sean iguales, además de que la lista tendra un tamaño enorme como ejemplo:
+mi_lista = list(range(1000)) Que creara una lista con mil datos haciendo que sea un desastre ordenarlos pues además del tamaño lla lista es demasido grande
+Además de esto al elegir el primer elemento de una lista ordenada como pivote, cada paso genera particiones completamente desbalanceadas (un subarreglo de 0 elementos y otro de n - 1). 
+Esto destruye la estrategia de dividir a la mitad que en el peor caso se comportara con un Big O(n^{2})
+
+3.Rta: Primeramente si se desea efectividad a la hora de realizar la busqueda de cien veces,
+se deberia ordenar y teniendo en cuenta que es una lista pero no se si es una colección de números o palabras,
+para mantener el orden recomendaria usar un algoritmo estable de busquedas o sorts avanzadso como un merge sort o un bucket sort debido a su rapidez
+y de que se mantiene el orden en caso de ser una colección de palabras
+
