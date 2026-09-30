@@ -1,0 +1,26 @@
+-------Para poder entender mi respuesta por favor mirar la Parte E los dos lenguajes------
+
+Analisis de los resultados: Al probar el algoritmo (Insertion Sort) con los rangos invertidos de 1000, 2000 y 4000 datos, 
+me di cuenta de que cada vez que duplicamos la cantidad de elementos (n), 
+el tiempo de ejecución no sube al doble, sino que aumenta aproximadamente 4 veces
+Al dividir los tiempos entre un tamaño y el anterior, se acerca a 4
+Esto demuestra que el algoritmo es de complejidad O(n^2), ya que al elevar al cuadrado el doble de un número, 
+el costo se multiplica por cuatro: (2n)^2 = 4n^2
+
+Además, aunque el código en C++ corre muchísimo más rápido que en Python por ser un lenguaje compilado, 
+el tiempo que se demora en correr el programa al duplicarse los datos fue la misma en ambos. 
+Esto confirma que el algoritmo se comporta igual sin importar el lenguaje de programación.
+
+Lenguaje            Tamaño de entrada           Tiempo de ejecución         Factor de crecimiento           Complejidad (Big O)
+
+C++                     1000                        0.92 ms                         --                          O(n^{2})
+
+C++                     2000                         3.72 ms                        4.06  ms                      O(n^{2})
+
+C++                     4000                          14.97 ms                      4.02  ms                      O(n^{2})
+
+Python                  1000                            18.48 ms                    --                           O(n^{2})
+
+Python                  2000                        81.40 ms                        4.40  ms                      O(n^{2})
+
+Python                  4000                        334.39 ms                       4.10  ms                       O(n^{2})

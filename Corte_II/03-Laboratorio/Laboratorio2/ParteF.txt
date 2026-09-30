@@ -1,0 +1,77 @@
+Parte F — CD/CI
+
+Un equipo de desarrollo tiene implementado el mismo algoritmo en Python y C++. Ambos proyectos utilizan GitHub y quieren automatizar un proceso de Integración Continua y Entrega Continua (CI/CD).
+
+El equipo propone el siguiente flujo:
+
+git push → ejecutar programa → pruebas → compilar → desplegar
+
+Uno de los integrantes afirma:
+
+“En Python no necesitamos Integración Continua porque Python no requiere compilación; CI/CD es principalmente para lenguajes como C++.”
+
+Pregunta:
+
+¿Estás de acuerdo con esta afirmación? Explica por qué y propón cómo debería ser un pipeline de CI/CD para el proyecto en Python y otro para C++.
+
+Como implementarioa CD/CI para este laboratorio
+
+
+
+Rta: No estoy deacuerdo pues el CI no depende si un lenguaje es compliado o no compilado, pues el CI se base en desarrollar pruebas unitarias a cada parte del codigo antes de ser subidas y como su nombre indica 
+integrarlas al programa principal, pues si se subiera todo de golpe abrian multiples o incluso millones de errores dependiendo de la dimension de codigo que se trabaje en el codigo principal,
+por el simple hecho de no realizar pruebas unitarias antes de integrar, y aunque python sea un lenguaje no compilado necesita de CI para poder verificar la sintaxis del codigo.
+
+El pipeline (que es el proceso de CD y CI a la vez(Acordarme de ello)) deberia ir asi en los dos lenguajes:
+
+Python 
+
+1. Git push
+2. Descargar el codigo
+3. Añadir librerias si es necesario (dependencias)
+4. Analisis de codigo (Revisar sintaxis, variables declaradas no usadas, errores de tipos de indentación o sangria en el código sin ejecutarlo)
+5. Realizar pruebas automaticas unitarias (Si esta mal, da el aviso)
+6. Merge
+7. Empaquetar
+8. Desplegar
+
+
+C++
+
+1. Git push
+2. Descargar el codigo
+3. Añadir librerias si es necesario (dependencias)
+4. Compilarse el codigo (Ejemplo: g++)
+5. Analisis de codigo (Revisar sintaxis, variables declaradas no usadas, errores de tipos de indentación o sangria en el código sin ejecutarlo)
+6. Realizar pruebas automaticas unitarias (Si esta mal, da el aviso)
+7. Merge
+8. Empaquetar
+9. Desplegar
+
+
+2Rta: Dedibo ha que este laboratorio lo he diseñado principalmente para python el pipeline sigue siendo casi lo mismo
+
+1. Git push
+2. Descargar el codigo fuente
+3. Añadir librerias si es necesario (dependencias)
+4. Analisis de codigo (Revisar sintaxis, variables declaradas no usadas, errores de tipos de indentación o sangria en el código sin ejecutarlo)
+5. Realizar pruebas automaticas unitarias (Si esta mal, da el aviso):
+En estas pruebas se realizan princiaplente en el codigo como cambiando la cantidad de mis listas, o entregando una lista en completo desorden o ya en orden, o incluso una lista que este ordenada a la inversa
+Si las pruebas pasan, en la mayoria de codigos de este laboratoria se calcula el tiempo entonces en el CD se generan y guardan automáticamente el reporte de tiempos/comparaciones y marcar el commit como válido
+6. Merge
+7. Empaquetar
+8. Desplegar
+
+En cuanto al C++:
+
+1. Git push
+2. Descargar el codigo fuente
+3. Añadir librerias si es necesario (dependencias)
+4. Compilarse el codigo (Ejemplo: g++)
+5. Analisis de codigo (Revisar sintaxis, variables declaradas no usadas, errores de tipos de indentación o sangria en el código sin ejecutarlo)
+6. Realizar pruebas automaticas unitarias (Si esta mal, da el aviso):
+Pasa similar que en el de python, en estas pruebas se realizan princiaplente en el codigo como cambiando la cantidad de mis listas, o entregando una lista en completo desorden o ya en orden, o incluso una lista que este ordenada a la inversa
+Si las pruebas pasan, en la mayoria de codigos de este laboratoria se calcula el tiempo entonces en el CD se generan y guardan automáticamente el reporte de tiempos/comparaciones y marcar el commit como válido
+7. Merge
+8. Empaquetar
+9. Desplegar
