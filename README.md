@@ -45,3 +45,8 @@
 * [Parcial Parte 1](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/8dad7a71839a0c0e371994e284c7a3050bef9a50/Corte_I/02-Evaluaciones/Pruebas/prueba_corte1/prueba_corte1)
 * [Parcial Parte 2](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/8dad7a71839a0c0e371994e284c7a3050bef9a50/Corte_I/02-Evaluaciones/Pruebas/prueba2_corte1)
 * [Quizzes](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/8dad7a71839a0c0e371994e284c7a3050bef9a50/Corte_I/02-Evaluaciones/Quizzes)
+
+
+## Corte II:
+
+**TEMATICAS**
