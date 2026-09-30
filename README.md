@@ -57,14 +57,14 @@
 **Anotaciones:**
 * [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/BackTracking)
 
-**Reto:**
-* [Retos](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/ae9c11deb73ebb7ab5a7fb5d043a4c241fe84f89/Corte_II/02-Retos/Retos-Busquedas)
-
 
 **2. Búsquedas:**
 
 **Anotaciones:**
 * [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Busquedas)
+
+**Reto:**
+* [Retos](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/ae9c11deb73ebb7ab5a7fb5d043a4c241fe84f89/Corte_II/02-Retos/Retos-Busquedas)
 
 
 **3. Complejidad**
@@ -78,6 +78,12 @@
 **Anotaciones:**
 * [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Ordenamiento)
 
+**Reto:**
+* [Reto de Bubble](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Bubble)
+* [Reto de Head and Bucket](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Head_and_Bucket)
+* [Reto de Merge and Quicksort](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Merge_and_Quicksort)
+* [Reto de Ordenamientos con comparar-Intercambiar-Tiempo-Resultado](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Comparar-Intercambiar-Tiempo-Resultado)
+
 
 **5. Pila**
 
@@ -89,6 +95,9 @@
 
 **Anotaciones:**
 * [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Recursividad)
+
+**Reto:**
+* [Retos](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Recursividad)
 
 
 **LABORATORIO**
