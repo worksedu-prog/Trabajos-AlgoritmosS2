@@ -51,3 +51,39 @@
 ## Corte II:
 
 **TEMATICAS**
+
+**1. Backtracking:**
+
+**Anotaciones:**
+* [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/BackTracking)
+
+
+**2. Búsquedas:**
+
+**Anotaciones:**
+* [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Busquedas)
+
+
+**3. Complejidad**
+
+**Anotaciones:**
+* [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Complejidad)
+
+
+**4. Ordenamiento**
+
+**Anotaciones:**
+* [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Ordenamiento)
+
+
+**5. Pila**
+
+**Anotaciones:**
+* [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Pila)
+
+
+**6. Recursividad**
+
+**Anotaciones:**
+* [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Recursividad)
+
