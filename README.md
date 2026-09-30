@@ -78,7 +78,7 @@
 **Anotaciones:**
 * [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Ordenamiento)
 
-**Reto:**
+**Retos:**
 * [Reto de Bubble](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Bubble)
 * [Reto de Head and Bucket](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Head_and_Bucket)
 * [Reto de Merge and Quicksort](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Merge_and_Quicksort)
