@@ -79,11 +79,17 @@
 **5. Pila**
 
 **Anotaciones:**
-* [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Pila)
+* [Anotaciones - Actividad](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Pila)
 
 
 **6. Recursividad**
 
 **Anotaciones:**
 * [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/Recursividad)
+
+
+**LABORATORIO**
+* [Lab Backtracking](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/fa220da4cd6590c5a15a1594b4276da6db7cee60/Corte_II/03-Laboratorio/BackTrackingLab)
+* [Lab Busquedas-Ordenamiento-Complejidad](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/fa220da4cd6590c5a15a1594b4276da6db7cee60/Corte_II/03-Laboratorio/Laboratorio2)
+
 
