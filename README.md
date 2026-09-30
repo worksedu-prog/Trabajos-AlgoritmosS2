@@ -17,7 +17,8 @@
 
 **Actividades:**
 * [Actividad 1](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/blob/8dad7a71839a0c0e371994e284c7a3050bef9a50/Corte_I/01-Actividades-y-Tareas/Actividades/Matrices.cpp)
-**Retos**
+
+**Retos:**
 * [Reto-Sesión / 12-08-26](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/4ed049dce6ccddbdb05891e6391dfb4cf5e1ab98/Corte_I/03-Retos/12-08)
 * [Reto-Sesión / 14-08-26](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/4ed049dce6ccddbdb05891e6391dfb4cf5e1ab98/Corte_I/03-Retos/14-08)
 
@@ -27,7 +28,8 @@
 
 **Actividades:**
 * [Actividad 1](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/blob/8dad7a71839a0c0e371994e284c7a3050bef9a50/Corte_I/01-Actividades-y-Tareas/Actividades/POO-Creacion_de_clases)
-* **Reto**
+
+**Reto:**
 * [Reto-Sesión / 21-08-26](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/4ed049dce6ccddbdb05891e6391dfb4cf5e1ab98/Corte_I/03-Retos/21-08)
 
 **TAREAS**
