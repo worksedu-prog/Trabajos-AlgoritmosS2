@@ -57,6 +57,9 @@
 **Anotaciones:**
 * [Anotaciones](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/88edfece1a9e48d25e0d30ec300a2b73f87d6394/Corte_II/01-Anotaciones/BackTracking)
 
+**Reto:**
+* [Retos](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/ae9c11deb73ebb7ab5a7fb5d043a4c241fe84f89/Corte_II/02-Retos/Retos-Busquedas)
+
 
 **2. Búsquedas:**
 
