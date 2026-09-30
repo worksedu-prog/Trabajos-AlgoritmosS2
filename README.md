@@ -82,7 +82,7 @@
 * [Reto de Bubble](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Bubble)
 * [Reto de Head and Bucket](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Head_and_Bucket)
 * [Reto de Merge and Quicksort](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Merge_and_Quicksort)
-* [Reto de Ordenamientos con comparar-Intercambiar-Tiempo-Resultado](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Comparar-Intercambiar-Tiempo-Resultado)
+* [Reto de Ordenamientos con comparaciones-intercambios-tiempo-resultado](https://github.com/worksedu-prog/Trabajos-AlgoritmosS2/tree/0878d4a68bff7db5a8b803cafb8b9306f89c3106/Corte_II/02-Retos/Retos-Sorts/Comparar-Intercambiar-Tiempo-Resultado)
 
 
 **5. Pila**
