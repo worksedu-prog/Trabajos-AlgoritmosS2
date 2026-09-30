@@ -1,7 +1,5 @@
-# Trabajos Algoritmos II
+# Trabajos Algoritmos Julián David Hernández
 
-En este repositorio de se guardan actividades, laboratorios, evaluaciones y retos correspondientes a **Trabajos Algoritmos II 2026**
-
-## Corte I
+## Corte I:
 
 ## Estructura del Repositorio
