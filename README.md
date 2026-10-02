@@ -2,6 +2,7 @@
 
 - [Documentación de Proyecto](https://docs.google.com/document/d/1gtIukrZGN8pqTulbkhyvfjeSzeFqjadxOrrHpZcybhM/edit?tab=t.0)
 - [Github de Proyecto](https://github.com/worksedu-prog/Algoritmos-2026-S2-PROYECTO/tree/main)
+- [Retos para implementar en el proyecto](./Corte_II/02-Retos/Retos-de-proyecto)
 
 ## Corte I:
 
@@ -78,6 +79,8 @@
 
 **Anotaciones:**
 - [Anotaciones - Actividad](./Corte_II/01-Anotaciones/Pila)
+**Reto:**
+- [Retos](./Corte_II/02-Retos/Retos-Pilas)
 
 **6. Recursividad**
 
