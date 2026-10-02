@@ -5,8 +5,7 @@
 #include <sstream>
 #include <string>
 
-using namespace std;// Deshace la última asignación realizada
-
+using namespace std;
 
 
 //void deshacerAsignacion(PilaAsignaciones& historial) {
