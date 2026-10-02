@@ -79,6 +79,7 @@
 
 **Anotaciones:**
 - [Anotaciones - Actividad](./Corte_II/01-Anotaciones/Pila)
+
 **Reto:**
 - [Retos](./Corte_II/02-Retos/Retos-Pilas)
 
