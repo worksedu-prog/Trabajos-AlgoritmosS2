@@ -75,7 +75,7 @@
 - [Reto de Merge and Quicksort](./Corte_II/02-Retos/Retos-Sorts/Merge_and_Quicksort)
 - [Reto de Ordenamientos con comparaciones-intercambios-tiempo-resultado](./Corte_II/02-Retos/Retos-Sorts/Comparar-Intercambiar-Tiempo-Resultado)
 
-**5. Pila**
+**5. Pila - Pila monotonica**
 
 **Anotaciones:**
 - [Anotaciones - Actividad](./Corte_II/01-Anotaciones/Pila)
