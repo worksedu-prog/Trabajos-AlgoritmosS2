@@ -94,3 +94,4 @@
 **LABORATORIO**
 - [Lab Backtracking](./Corte_II/03-Laboratorio/BackTrackingLab)
 - [Lab Busquedas-Ordenamiento-Complejidad](./Corte_II/03-Laboratorio/Laboratorio2)
+- [Lab Pila-Colas](./Corte_II/03-Laboratorio/Laboratorio-Pilas-Colas)
