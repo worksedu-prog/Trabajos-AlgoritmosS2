@@ -1,0 +1,21 @@
+Preguntas
+
+En una cola sobre lista enlazada, saco el último elemento. ¿Qué dos referencias tengo que actualizar y por qué?
+En una cola circular de capacidad cinco, el frente está en tres y hay cuatro elementos. ¿En qué posición se guarda el siguiente que encole?
+Quiero deshacer las últimas tres operaciones. ¿Pila o cola? ¿Por qué?
+Quiero atender por orden de llegada. ¿Pila o cola?
+
+
+
+1.Rta: Las referencias que se tendrian que actualizar son el ultimo nodo y el penultimo nodo, ya que al sacar el ultimo nodo, 
+el penultimo nodo pasa a ser el ultimo nodo de la lista entrelazada, y el ultimo nodo se elimina de la lista
+
+2.Rta: El ultimo dato en encolarse se guardaria en la posición 2, ya que al tener 5 elementos de capacidad, y al frente 3
+y 4 elementos más. 3+4 = 7, y al estar en una cola circular 7 mod 5 = 2, por lo que el siguiente elemento se guardaría en la posición 2.
+
+3.Rta: Para poder deshacer las ultimas tres operaciones, se debería utilizar una pila pues eliminaria las operaciones anteriores
+sin eliminar las operaciones anteriores, ya que como sabes usa el metodo LIFO (Last In first Out), el ultimo en llegar es el primero
+en salir.
+
+4. Rta: Para poder atender por orden de llegada sin tenre un desorden en los números de deberia utilizar la cola, pues
+su metodo es FIFO (First in first out), es decir el primero que llega es el primero que sale

@@ -1,0 +1,11 @@
+Parte A — La cola de atención
+Implementen la cola de espera de su sistema, sobre lista enlazada, con encolar, desencolar, consultar el frente y saber cuántos hay. Encolar y desencolar deben costar O de uno los dos, y el tamaño también.
+Prueben explícitamente el caso de vaciar la cola y volver a encolar. Ese caso vale puntos.
+Parte B — El deshacer 
+Implementen una pila que registre las últimas operaciones del sistema y permita deshacer la última. Debe deshacer de verdad, no solo borrar el registro: si la operación fue un préstamo, deshacerla devuelve el recurso a disponible.
+
+Preguntas
+1. En una cola sobre lista enlazada, saco el último elemento. ¿Qué dos referencias tengo que actualizar y por qué?
+2. En una cola circular de capacidad cinco, el frente está en tres y hay cuatro elementos. ¿En qué posición se guarda el siguiente que encole?
+3. Quiero deshacer las últimas tres operaciones. ¿Pila o cola? ¿Por qué?
+4. Quiero atender por orden de llegada. ¿Pila o cola?
