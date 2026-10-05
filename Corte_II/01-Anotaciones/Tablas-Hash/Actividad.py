@@ -1,5 +1,5 @@
 def calcular_mod11(palabra):
-    # Convertimos la palabra a mayusculas
+    # Convertir la palabra a mayusculas
     palabra = palabra.upper()
     
     # Letra y su valor (A=1, B=2, ..., Z=26)
@@ -9,7 +9,7 @@ def calcular_mod11(palabra):
     
     return suma, modulo
 
-nombre = input("Ingresa una palabra o nombre: ")
+nombre = input("Ingresar el nombre: ")
 total, resultado_mod = calcular_mod11(nombre)
 
 print(f"\nPalabra: {nombre}")
