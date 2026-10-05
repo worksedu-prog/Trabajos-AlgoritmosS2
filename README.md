@@ -91,7 +91,7 @@
 **Reto:**
 - [Retos](./Corte_II/02-Retos/Retos-Recursividad)
 
-**5. Pila - Pila monotonica**
+**7. Tablas Hash**
 
 **Anotaciones:**
 - [Anotaciones - Actividad](./Corte_II/01-Anotaciones/Tablas-Hash)
