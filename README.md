@@ -91,6 +91,12 @@
 **Reto:**
 - [Retos](./Corte_II/02-Retos/Retos-Recursividad)
 
+**5. Pila - Pila monotonica**
+
+**Anotaciones:**
+- [Anotaciones - Actividad](./Corte_II/01-Anotaciones/Tablas-Hash)
+
+
 **LABORATORIO**
 - [Lab Backtracking](./Corte_II/03-Laboratorio/BackTrackingLab)
 - [Lab Busquedas-Ordenamiento-Complejidad](./Corte_II/03-Laboratorio/Laboratorio2)
