@@ -1,5 +1,5 @@
-En C++, los diccionarios se implementan con la librería <map> (o <unordered_map>)
-El tipo map<Clave, Valor> guarda los pares clave-valor ordenados automáticamente por la clave
+//En C++, los diccionarios se implementan con la librería <map> (o <unordered_map>)
+//El tipo map<Clave, Valor> guarda los pares clave-valor ordenados automáticamente por la clave
 #include <iostream>
 #include <map>
 #include <string>
