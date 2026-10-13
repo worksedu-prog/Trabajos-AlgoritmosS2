@@ -1,3 +1,6 @@
+#@Julian H (Parte de python)
+#@Santiago Artega (Parte de ccp)
+
 class TablaHash:
     def __init__(self, capacidad=10, tipo_hash="buena"):
         self.cap = capacidad

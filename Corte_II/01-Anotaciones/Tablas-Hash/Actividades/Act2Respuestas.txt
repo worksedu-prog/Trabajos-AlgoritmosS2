@@ -1,3 +1,7 @@
+#@Julian H (Parte de python) - 
+#@Santiago Artega (Parte de ccp)
+
+
 4. Responder: 
     1. ¿Por qué la función mala pone a todos en la misma cubeta?
     2. La tabla con la función mala también se redimensionó. ¿Mejoró la distribución? ¿Por qué?
