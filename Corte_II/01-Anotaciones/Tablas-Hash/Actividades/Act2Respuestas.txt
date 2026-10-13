@@ -1,0 +1,32 @@
+4. Responder: 
+    1. ¿Por qué la función mala pone a todos en la misma cubeta?
+    2. La tabla con la función mala también se redimensionó. ¿Mejoró la distribución? ¿Por qué?
+    3. Con la función mala, ¿cuántas comparaciones hace buscar("EST-2026-0112") en el peor caso? ¿Y con la buena?
+    4. ¿Qué parte del código debería mirar una buena función hash para sus claves del proyecto?
+
+1.Rta: Porque la función mala solo evalúa los primeros 4 caracteres (clave[:4]) de la clave. 
+Como todos los códigos de los estudiantes tienen exactamente el mismo prefijo ("EST-"), la suma de esos cuatro 
+caracteres es idéntica para todos (ord('E') + ord('S') + ord('T') + ord('-')). 
+Al aplicar el operador módulo con la capacidad (% self.cap), 
+todas las claves obtienen el mismo valor numérico de hash y terminan almacenadas en la misma cubeta, 
+provocando una colisión masiva
+
+ 2.Rta: No, la distribución no mejoró en absoluto. Aunque la tabla aumentó su capacidad y duplicó el número de cubetas
+ el problema reside en la función hash y no en el tamaño de la tabla. 
+ Como la función hash sigue arrojando exactamente el mismo valor numérico para todas las claves (debido a que dependen del mismo prefijo como mencione antes), 
+ todos los elementos siguen cayendo en una sola cubeta
+
+ 3.Rta: Con la función mala: Hace 12 comparaciones (en el peor caso, o N comparaciones). 
+ Como los 12 estudiantes terminaron acumulados en una sola cubeta (que es una lista enlazada), 
+ el método buscar tiene que recorrer toda esa lista elemento por elemento hasta encontrar al estudiante 
+ (o llegar al final).
+ 
+ Con la buena: Hace 1 o muy pocas comparaciones. 
+ Gracias a que la función hash buena distribuye los elementos uniformemente entre las diferentes cubetas, 
+ al buscar "EST-2026-0112" la tabla calcula directamente el índice exacto de la cubeta donde está guardado,
+manteniendo la complejidad cercana a O(1).
+
+4.Rta: Debería mirar toda la clave completa de extremo a extremo 
+(recorriendo cada carácter con un bucle como for c in str(clave)), 
+aprovechando especialmente la parte variable o única (como los números del final) 
+y usando un factor multiplicador para asegurar una distribución uniforme.

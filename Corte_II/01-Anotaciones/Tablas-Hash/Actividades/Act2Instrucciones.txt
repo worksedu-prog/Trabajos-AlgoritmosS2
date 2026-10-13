@@ -35,11 +35,11 @@ void redimensionar() {
         // TODO 3: recorrer 'viejas' e insertar cada par otra vez
     }
     // y al final de insertar():
-    //     if (factorCarga() > 0.75) redimensionar();
+    //     if (factorCarga() > 0.75) redimensionar|();
 3. Comparar dos funciones hash. Agreguen una segunda función, la "mala", que solo suma los 4 primeros caracteres de la clave:
 return sum(ord(c) for c in clave[:4]) % self.cap
 Carguen los 12 estudiantes con cada función e impriman: capacidad final, distribución, factor de carga, cubeta más llena y cubetas vacías.
-4. Responder en un md:
+4. Responder en un md: 
     1. ¿Por qué la función mala pone a todos en la misma cubeta?
     2. La tabla con la función mala también se redimensionó. ¿Mejoró la distribución? ¿Por qué?
     3. Con la función mala, ¿cuántas comparaciones hace buscar("EST-2026-0112") en el peor caso? ¿Y con la buena?
