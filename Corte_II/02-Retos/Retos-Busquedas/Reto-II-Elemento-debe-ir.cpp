@@ -7,9 +7,6 @@
 
 using namespace std;
 
-#include <vector>
-using namespace std;
-
 // Función de búsqueda binaria que devuelve el índice del elemento si existe,
 // o la posición adecuada de inserción si no se encuentra.
 int busquedaBinaria(const vector<int>& vec, int elemento) {
@@ -39,4 +36,16 @@ int busquedaBinaria(const vector<int>& vec, int elemento) {
     // la variable 'izquierda' almacena el índice donde DEBERÍA insertarse 
     // el elemento para mantener el vector ordenado.
     return izquierda;
+}
+
+int main() {
+    // Vector ordenado de prueba
+    vector<int> vec = {1, 3, 5, 7, 9};
+    int elementoBusqueda = 6; // Elemento que no está, debería ir en el índice 3 (entre 5 y 7)
+
+    int resultado = busquedaBinaria(vec, elementoBusqueda);
+
+    cout << "El elemento deberia estar en el indice: " << resultado << endl;
+
+    return 0;
 }
