@@ -1,0 +1,57 @@
+Ejercicio 9 · Trazado de cola circular  ·  C++  ·  (trazado + índices) 
+Una cola circular con capacidad 5 arranca con frente = 0, final = −1 y cantidad = 0. El método encolar hace final = (final 
++ 1) % 5 y desencolar hace frente = (frente + 1) % 5. Complete el estado de los tres atributos después de cada 
+operación e indique en qué operación se produce el desbordamiento. 
+Secuencia de operaciones · CAP = 5 
+encolar(11);  encolar(22);  encolar(33);  encolar(44); 
+desencolar(); desencolar(); 
+encolar(55);  encolar(66);  encolar(77); 
+encolar(88);
+
+Capacidad (CAP) = 5
+Estado Inicial: frente = 0, final = -1, cantidad = 0
+
+Secuencia de operaciones y estado:
+
+1. encolar(11);
+   - frente = 0, final = 0, cantidad = 1
+   - Elementos: [11, , , , ]
+
+2. encolar(22);
+   - frente = 0, final = 1, cantidad = 2
+   - Elementos: [11, 22, , , ]
+
+3. encolar(33);
+   - frente = 0, final = 2, cantidad = 3
+   - Elementos: [11, 22, 33, , ]
+
+4. encolar(44);
+   - frente = 0, final = 3, cantidad = 4
+   - Elementos: [11, 22, 33, 44, ]
+
+5. desencolar();
+   - frente = 1, final = 3, cantidad = 3
+   - Elementos: [, 22, 33, 44, ] (Sale 11)
+
+6. desencolar();
+   - frente = 2, final = 3, cantidad = 2
+   - Elementos: [, , 33, 44, ] (Sale 22)
+
+7. encolar(55);
+   - frente = 2, final = 4, cantidad = 3
+   - Elementos: [, , 33, 44, 55]
+
+8. encolar(66);
+   - frente = 2, final = 0, cantidad = 4
+   - Elementos: [66, , 33, 44, 55] (Da la vuelta)
+
+9. encolar(77);
+   - frente = 2, final = 1, cantidad = 5
+   - Elementos: [66, 77, 33, 44, 55] (Cola llena)
+
+10. encolar(88);
+   - frente = 2, final = 1, cantidad = 5
+   - Elementos: [66, 77, 33, 44, 55]
+   - DESBORDAMIENTO (Overflow)
+
+Rta: El desbordamiento se produce en la operación encolar(88), ya que la cola se encuentra a su máxima capacidad (cantidad = 5 de 5).

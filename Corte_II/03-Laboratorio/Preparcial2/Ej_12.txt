@@ -1,0 +1,28 @@
+EJERCICIO 12 — Tabla hash con encadenamiento (C++)
+M = 7 buckets
+Función hash: h(k) = k % 7
+Claves a insertar: 23, 15, 42, 9, 36, 51, 28, 17
+
+1. Valores de h(k) por cada clave:
+- h(23) = 23 % 7 = 2
+- h(15) = 15 % 7 = 1
+- h(42) = 42 % 7 = 0
+- h(9)  = 9 % 7 = 2
+- h(36) = 36 % 7 = 1
+- h(51) = 51 % 7 = 2
+- h(28) = 28 % 7 = 0
+- h(17) = 17 % 7 = 3
+
+2. Contenido final de cada bucket (encadenamiento):
+- Bucket 0: [42, 28]
+- Bucket 1: [15, 36]
+- Bucket 2: [23, 9, 51]
+- Bucket 3: [17]
+- Bucket 4: []
+- Bucket 5: []
+- Bucket 6: []
+
+3. Análisis:
+- Número de colisiones: 4 (ocurren con las claves 9, 36, 51 y 28 al caer en buckets ya ocupados).
+- Longitud de la cadena más larga: 3 (ubicada en el Bucket 2).
+- Factor de carga (alpha = N / M): 8 / 7 ≈ 1.14 (o 8/7).

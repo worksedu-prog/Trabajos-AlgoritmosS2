@@ -1,0 +1,33 @@
+Ejercicio 7 · Conteo de operaciones y Big O  ·  C++ y Python  ·  (análisis) 
+Para cada fragmento, escriba la expresión exacta del número de veces que se ejecuta c++ (o c += 1) en función de n, y 
+la complejidad asintótica en notación Big O. 
+Fragmento A 
+// Fragmento A  —  C++ 
+int f(int n) {
+    int c = 0;
+    for (int i = 0; i < n; i++)
+        for (int j = i; j < n; j++)
+            c++
+    return c;
+}
+
+Fragmento B - Py
+
+def g(n):
+    c = 0
+    i = 1
+    while i < n:
+        for j in range (n):
+            c += 1
+        i *= 2
+    return c
+
+
+Rta:
+
+Complejidad del fragmento de C++ es de un Big O(n^{2}) debido a tiene for anidados
+Complejidad del fragmento de Py es de un Big O (n log n) debido a que while cuenta con O(long n) 
+y al estar acompañado de un for con O(n) se multiplican
+
+Para el Fragmento A, la expresión exacta de ejecuciones es n(n+1)/2, ya que el bucle interno depende de i y realiza una suma decreciente desde n hasta 1 ejecuciones.
+Para el Fragmento B, la expresión exacta es n log_2(n), dado que el bucle while duplica i ejecutándose log_2(n) veces, multiplicándose por las n iteraciones del bucle for interno en cada paso
