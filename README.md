@@ -101,3 +101,20 @@
 - [Lab Backtracking](./Corte_II/03-Laboratorio/BackTrackingLab)
 - [Lab Busquedas-Ordenamiento-Complejidad](./Corte_II/03-Laboratorio/Laboratorio2)
 - [Lab Pila-Colas](./Corte_II/03-Laboratorio/Laboratorio-Pilas-Colas)
+
+**PREPARCIAL**
+- [Preparcial Corte_II](./Corte_II/03-Laboratorio/Preparcial2)
+
+
+**PARCIAL**
+-[Parcial II](./Corte_II/04-Parcial2/)
+
+
+## Corte III
+
+**TEMATICAS:**
+
+**1. Árboles:**
+
+**Anotaciones:**
+- [Arboles](./Corte_III/01-Anotaciones/Arboles)
