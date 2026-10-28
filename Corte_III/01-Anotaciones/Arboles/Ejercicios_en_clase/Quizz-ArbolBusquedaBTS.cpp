@@ -63,7 +63,7 @@ Nodo* eliminar(Nodo* n, int clave){
     } else {
         if (n->izq == nullptr){ Nodo* t = n->der; delete n; return t; }
         if (n->der == nullptr){ Nodo* t = n->izq; delete n; return t; }
-        // dos hijos: sucesor inorden (minimo del subarbol derecho)
+        // dos hijos con sucesor inorden (minimo del subarbol derecho)
         Nodo* suc = minimo(n->der);
         n->clave = suc->clave;
         n->nombre = suc->nombre;
@@ -136,7 +136,7 @@ int main() {
     }
     const char* NOMBRE[] = {"caso 1: hoja, 0 hijos", "caso 2: un hijo", "caso 3: dos hijos"};
     for (int clave : {20, 30, 50}) {
-        int k = hijos(raiz, clave);                 // se mide, no se supone
+        int k = hijos(raiz, clave);                 
         raiz = eliminar(raiz, clave);
         s.clear(); inorden(raiz, s);
         cout << "eliminar(" << clave << ") [" << NOMBRE[k] << "] -> ";
