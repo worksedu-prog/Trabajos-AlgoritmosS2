@@ -7,3 +7,15 @@
 #Hojas: Nodos que no tienen hijos, pero están conectados a otros nodos
 
 
+#Ejemplo de nodo binario:
+
+class Nodo:
+    def __init__(self, valor):
+        self.valor = valor
+        self.izquierdo = None
+        self.derecho = None
+
+# Crear la raíz y los primeros nodos
+raiz = Nodo(10)
+raiz.izquierdo = Nodo(5)
+raiz.derecho = Nodo(15)
