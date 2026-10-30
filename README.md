@@ -123,4 +123,4 @@
 - [Retos de Arboles](./Corte_III/02-Retos/Arboles)
 
 **QUIZZ:**
-- [Quizz de Arboles](./Corte_III/01-Anotaciones/Arboles/Ejercicios_en_clase)
+- [Quices de Arboles](./Corte_III/01-Anotaciones/Arboles/Ejercicios_en_clase)
