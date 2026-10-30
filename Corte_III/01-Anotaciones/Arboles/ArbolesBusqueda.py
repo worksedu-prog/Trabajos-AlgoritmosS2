@@ -25,6 +25,6 @@ def insertar(n, clave):
         n.der = insertar(n.der, clave)
     return n                           # clave repetida: no se inserta
 # eliminar nodo (hoja) se boraa y su lugar queda nulo
-# el nodo tiene un hijo el hijo debe subir aocupar el lugar del padre y el subarblo se reengancha al abuelo
-# el nodo tiene dos hijos se busca un sucesor inorden (minimo del subarbol derecho) secopia la clave
+# Caso 1: el nodo tiene un hijo el hijo debe subir aocupar el lugar del padre y el subarblo se reengancha al abuelo
+# Caso 2: el nodo tiene dos hijos se busca un sucesor inorden (minimo del subarbol derecho) secopia la clave
 # en  el nodo y se elimina el sucesor inorden (que es hoja o tiene un hijo derecho)
