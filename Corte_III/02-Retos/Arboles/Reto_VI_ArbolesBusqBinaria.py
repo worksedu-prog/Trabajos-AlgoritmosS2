@@ -67,11 +67,11 @@ print("\n" + "=" * 50)
 print(" 2. PRUEBAS DE INFORME (Búsqueda por código)")
 print("=" * 50)
 
-print("Buscando el código 107:")
+print("Busqueda  del código 107:")
 informe(107, raiz, 0)
 
-print("\nBuscando el código 101 (el primero):")
+print("\nBusqueda  del código 101 (el primero):")
 informe(101, raiz, 0)
 
-print("\nBuscando un código que NO existe (999):")
+print("\nBusqueda de un codigo que NO existe (999):")
 informe(999, raiz, 0)
