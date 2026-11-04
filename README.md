@@ -134,4 +134,4 @@
 - [Retos de Grafos](./Corte_III/02-Retos/Grafos)
 
 **QUIZZ:**
-- [Quices de Grafos](./Corte_III/01-Anotaciones/Quices/Quices)
+- [Quices de Grafos](./Corte_III/01-Anotaciones/Grafos/Quices)
