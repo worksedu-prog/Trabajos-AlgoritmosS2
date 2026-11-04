@@ -1,4 +1,4 @@
-// quizz 4/11
+// Quizz 4/11
 #include <iostream>
 #include <vector>
 #include <string>
