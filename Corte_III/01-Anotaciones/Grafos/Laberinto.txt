@@ -1,5 +1,5 @@
 Como salir del laberinto usando grafos?
 Rta: Para salir de un laberinto usando grafos, se puede representar el laberinto como un grafo donde cada celda del laberinto 
-es un nodo y las conexiones entre celdas adyacentes son las aristas. Luego, se puede utilizar un algoritmo de búsqueda como BFS 
-o DFS para encontrar un camino desde la entrada del laberinto hasta la salida. 
+es un nodo y las conexiones entre celdas adyacentes son las aristas. Luego, se puede utilizar un algoritmo de contal de que cuente que nodos se ha visitado
+y guardarlos para no volver a visitarlos y tambien para saber si estoy en un ciclo
 
