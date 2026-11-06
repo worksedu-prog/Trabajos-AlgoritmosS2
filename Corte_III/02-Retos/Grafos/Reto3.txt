@@ -1,0 +1,30 @@
+Reto 3 — El grafo imposible (reto corchador) · 
+Obligatorio ¿Existe un grafo no dirigido de cinco vértices donde todos tengan grado 3?
+Intente dibujarlo. Si cree que no existe, demuéstrelo. 
+Después generalice: ¿para qué combinaciones de V y grado es imposible? 
+Pista: Sume los grados de todos los vértices de cualquier grafo y compare esa suma con el número de aristas. 
+La relación que encuentre resuelve el problema de inmediato.
+
+
+
+No, es imposible
+
+Demostración:
+
+- La suma total de los grados de los vértices sería 5 * 3 = 15.
+
+- La suma de los grados de un grafo siempre debe ser igual al doble del número de aristas (2E).
+
+- Esto nos daría 2E = 15 => E = 7.5.
+
+- Como el número de aristas (E) debe ser un número entero, es matemáticamente imposible construir dicho grafo.
+
+
+ ¿Para qué combinaciones de V y grado (k) es imposible?
+
+Un grafo es imposible siempre que tanto el número de vértices (V) como el grado (k) sean números IMPARES.
+
+Razón:
+
+El número de aristas viene dado por E = (V * k) / 2. Si multiplicas dos números impares, 
+el resultado siempre es impar, y al dividirlo entre 2 dará un resultado con decimales, lo cual no es válido para el conteo de aristas.
